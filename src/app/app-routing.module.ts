@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'pulp-fiction',
+    loadChildren: () => import('./pulp-fiction/pulp-fiction.module').then( m => m.PulpFictionPageModule)
+  },
 ];
 
 @NgModule({
