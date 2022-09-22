@@ -1,7 +1,13 @@
+ion-toolbar{
+  background-color: var(--ion-color-black)
+}
 ion-title{
   font-size: 30px;
 }
 
 ion-thumbnail {
   height: 100%;
+}
+h1{
+  color: var(--ion-color-gray);
 }
