@@ -1,16 +1,36 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>o-pianista</ion-title>
+  <ion-toolbar color="black">
+    <ion-icon
+      class="size3"
+      routerLink="/home"
+      name="arrow-back-outline"
+      slot="start"
+    ></ion-icon>
+
+    <ion-title class="size3 ion-text-center ion-text-wrap">O Pianista</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-toolbar>
-    <ion-item routerLink="/home">
-    <ion-buttons slot="start" >
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-    <ion-title>Back Button</ion-title>
-  </ion-item>
-  </ion-toolbar>
+<ion-content class="conteudo" color="black">
+  <ion-card>
+    <ion-card-header>
+      <img
+        alt="Filme O Pianista"
+        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/s0evYrftQZepUEaLPUFUdRvBG80.jpg"
+      />
+
+      <ion-card-title color="gray">O Pianista</ion-card-title>
+      <ion-label>07/03/2003 (BR) Drama, Guerra 2h 30m</ion-label>
+      <ion-card-subtitle>Sinopse</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Um pianista judeu polonês vê Varsóvia mudar gradualmente à medida que a
+      Segunda Guerra Mundial começa. Szpilman é forçado a ir para o Gueto de
+      Varsóvia, mas depois é separado de sua família durante a Operação
+      Reinhard. A partir deste momento até que os prisioneiros dos campos de
+      concentração sejam liberados, Szpilman se esconde em vários locais entre
+      as ruínas de Varsóvia.</ion-card-content
+    >
+  </ion-card>
 </ion-content>

@@ -1,16 +1,44 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>homens-sentenca</ion-title>
+  <ion-toolbar color="black">
+    <ion-grid>
+      <ion-row class="ion-justify-content-between">
+        <ion-col size="1">
+          <ion-icon
+            class="size3 ico"
+            routerLink="/home"
+            name="arrow-back-outline"
+          ></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title class="size3 ion-text-center ion-text-wrap">12 Homens e Uma Sentença </ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-toolbar>
-    <ion-item routerLink="/home">
-    <ion-buttons slot="start" >
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-    <ion-title>Back Button</ion-title>
-  </ion-item>
-  </ion-toolbar>
+<ion-content class="conteudo" color="black">
+  <ion-card>
+    <ion-card-header>
+      <img
+        alt="Filme 12 Homens e uma sentença"
+        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/q8RGf4SbVCObCySZ4PIGsn5wFm6.jpg"
+      />
+
+      <ion-card-title color="gray">12 Homens e Uma Sentença </ion-card-title>
+      <ion-label> 10/10/1958 (BR) Drama 1h 36m </ion-label>
+      <ion-card-subtitle>Sinopse</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Um jovem porto-riquenho é acusado do brutal crime de ter matado o próprio
+      pai. Quando ele vai a julgamento, doze jurados se reúnem para decidir a
+      sentença, levando em conta que o réu deve ser considerado inocente até que
+      se prove o contrário. Onze dos jurados têm plena certeza de que ele é
+      culpado, e votam pela condenação, mas um jurado acha que é melhor
+      investigar mais para que a sentença seja correta. Para isso ele terá que
+      enfrentar diferentes interpretações dos fatos, e a má vontade dos outros
+      jurados, que só querem ir logo para suas casas.</ion-card-content
+    >
+  </ion-card>
 </ion-content>

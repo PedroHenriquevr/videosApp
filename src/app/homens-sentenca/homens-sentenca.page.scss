@@ -1,0 +1,10 @@
+ion-card{
+  background: linear-gradient(to right, rgba(10.5, 31.5, 31.5, 1) 150px, rgba(10.5, 31.5, 31.5, 0.84) 100%);
+  color: var(--ion-color-gray);
+}
+ion-title{
+    .toolbar-title{
+      white-space:unset !important;
+    }
+}
+

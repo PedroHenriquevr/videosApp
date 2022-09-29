@@ -1,16 +1,35 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>clube-da-luta</ion-title>
+  <ion-toolbar color="black">
+    <ion-icon
+      class="size3"
+      routerLink="/home"
+      name="arrow-back-outline"
+      slot="start"
+    ></ion-icon>
+
+    <ion-title class="size3 ion-text-center ion-text-nowrap">Clube da Luta </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-toolbar>
-    <ion-item routerLink="/home">
-    <ion-buttons slot="start" >
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-    <ion-title>Back Button</ion-title>
-  </ion-item>
-  </ion-toolbar>
+<ion-content class="conteudo" color="black">
+  <ion-card>
+    <ion-card-header>
+      <img
+        alt="Filme Clube da Luta"
+        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mZDc9F3uNSgUNaudb1VtumPs3dL.jpg"
+      />
+
+      <ion-card-title color="gray">Clube da Luta </ion-card-title>
+      <ion-label>29/10/1999 (BR) Drama 2h 19m</ion-label>
+      <ion-card-subtitle>Sinopse</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Um homem deprimido que sofre de insônia conhece um estranho vendedor de
+      sabonetes chamado Tyler Durden. Eles formam um clube clandestino com
+      regras rígidas onde lutam com outros homens cansados de suas vidas
+      mundanas. Mas sua parceria perfeita é comprometida quando Marla chama a
+      atenção de Tyler.</ion-card-content
+    >
+  </ion-card>
 </ion-content>

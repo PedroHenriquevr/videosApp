@@ -1,16 +1,45 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>forrest-gump</ion-title>
+  <ion-toolbar color="black">
+    <ion-grid>
+      <ion-row class="ion-justify-content-between">
+        <ion-col size="1">
+          <ion-icon
+            class="size3 ico"
+            routerLink="/home"
+            name="arrow-back-outline"
+          ></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title class="size3 ion-text-center ion-text-wrap"
+            >Forrest Gump: O Contador de Histórias
+          </ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-toolbar>
-    <ion-item routerLink="/home">
-    <ion-buttons slot="start" >
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-    <ion-title>Back Button</ion-title>
-  </ion-item>
-  </ion-toolbar>
+<ion-content class="conteudo" color="black">
+  <ion-card>
+    <ion-card-header>
+      <img
+        alt="Filme Forrest Gump"
+        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lsn4YWMiwkN0Ijsj2oE81OmODFA.jpg"
+      />
+
+      <ion-card-title color="black"
+        >Forrest Gump: O Contador de Histórias</ion-card-title
+      >
+      <ion-label> 07/12/1994 (BR) Comédia, Drama, Romance 2h 22m </ion-label>
+      <ion-card-subtitle>Sinopse</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Quarenta anos da história dos Estados Unidos, vistos pelos olhos de
+      Forrest Gump, um rapaz com QI abaixo da média e com boas intenções. Por
+      obra do acaso, ele consegue participar de momentos cruciais, como a Guerra
+      do Vietnã e o Caso Watergate, mas continua pensando no seu amor de
+      infância, Jenny Curran.</ion-card-content
+    >
+  </ion-card>
 </ion-content>

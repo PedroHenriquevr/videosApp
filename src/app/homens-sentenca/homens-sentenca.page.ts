@@ -10,6 +10,7 @@ export class HomensSentencaPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

@@ -1,16 +1,45 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>poderoso-chefao</ion-title>
+  <ion-toolbar color="black">
+    <ion-grid>
+      <ion-row class="ion-justify-content-between">
+        <ion-col size="1">
+          <ion-icon
+            class="size3 ico"
+            routerLink="/home"
+            name="arrow-back-outline"
+          ></ion-icon>
+        </ion-col>
+        <ion-col>
+          <ion-title class="size3 ion-text-center ion-text-wrap">O Poderoso Chefão</ion-title>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-toolbar>
-    <ion-item routerLink="/home">
-    <ion-buttons slot="start" >
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-    <ion-title>Back Button</ion-title>
-  </ion-item>
-  </ion-toolbar>
+<ion-content class="conteudo" color="black">
+  <ion-card>
+    <ion-card-header>
+      <img
+        alt="Filme Poderoso Chefão"
+        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/u8LAG1JI57U9p0s8TyEEeoykR5d.jpg"
+      />
+
+      <ion-card-title color="gray">O Poderoso Chefão</ion-card-title>
+      <ion-label> 07/07/1972 (BR) Drama, Crime 2h 55m </ion-label>
+      <ion-card-subtitle>Sinopse</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Em 1945, Don Corleone é o chefe de uma mafiosa família italiana de Nova
+      York. Ele costuma apadrinhar várias pessoas, realizando importantes
+      favores para elas, em troca de favores futuros. Com a chegada das drogas,
+      as famílias começam uma disputa pelo promissor mercado. Quando Corleone se
+      recusa a facilitar a entrada dos narcóticos na cidade, não oferecendo
+      ajuda política e policial, sua família começa a sofrer atentados para que
+      mudem de posição. É nessa complicada época que Michael, um herói de guerra
+      nunca envolvido nos negócios da família, vê a necessidade de proteger o
+      seu pai e tudo o que ele construiu ao longo dos anos.</ion-card-content
+    >
+  </ion-card>
 </ion-content>
